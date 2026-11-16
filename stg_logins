@@ -1,0 +1,12 @@
+# user:database:password   (password last - it may contain ':')
+payments:payments:<password>
+micros:tars:<password>
+elk:tars:<password>
+ibp:tars:<password>
+ibp:tars_kvs:<password>
+dbq:dbq:<password>
+postgres:dbq:<password>
+tars:rta_notify:<password>
+logq:logq:<password>
+tars:notifyx:<password>
+tars:userz:<password>
