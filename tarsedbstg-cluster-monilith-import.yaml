@@ -40,7 +40,7 @@ spec:
       plugin:
         name: barman-cloud.cloudnative-pg.io
         parameters:
-          barmanObjectName: tarsedb-primaryobject-store
+          barmanObjectName: tarsedb-drobject-store
           serverName: tarsedbdr
   plugins:
     - name: barman-cloud.cloudnative-pg.io
