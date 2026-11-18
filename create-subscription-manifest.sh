@@ -3,15 +3,6 @@
 #
 # Usage:
 #   ./make_subscription.sh                 # asks for database name(s)
-#   ./make_subscription.sh tars pdfq userz # names given on the command line
-#
-# For each database it writes <db>_subscription.yaml with:
-#   metadata.name      cr2edb-<db>   (Kubernetes name: lowercase, '_' becomes '-')
-#   spec.dbname        <db>          (exact database name)
-#   spec.name          <db>_sub      (subscription name in PostgreSQL)
-#   publicationName    <db>_pub      (must match the publication created on the source)
-#   publicationDBName  <db>
-
 set -euo pipefail
 
 NAMESPACE="tars-edb"
