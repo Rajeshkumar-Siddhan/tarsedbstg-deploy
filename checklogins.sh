@@ -15,7 +15,6 @@
 #   ./check-logins.sh crunchy                 # source: tars-db / tarsdb
 #   ./check-logins.sh edb                     # target: tars-edb / tarsedb
 #   ./check-logins.sh both                    # both, one after the other
-#   ./check-logins.sh edb /path/to/file.conf  # use another logins file
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 LOGIN_FILE="${2:-$SCRIPT_DIR/stg_logins.conf}"
